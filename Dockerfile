@@ -1,8 +1,8 @@
-FROM iron/java:1.7
+FROM iron/java:1.8
 MAINTAINER Jochen Schalanda <jochen+docker@schalanda.name>
 
-ENV ELASTICSEARCH_MAJOR 1.7
-ENV ELASTICSEARCH_VERSION 1.7.5
+ENV ELASTICSEARCH_MAJOR 2.2
+ENV ELASTICSEARCH_VERSION 2.2.0
 ENV ELASTICSEARCH_URL_BASE https://download.elasticsearch.org/elasticsearch/elasticsearch
 ENV PATH /opt/elasticsearch/bin:$PATH
 
